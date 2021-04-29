@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Forecast</title>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <h1 class="title">Dojo Weather</h1>
+        <ul>
+            <li onclick="alert('Loading weather report...')">Burkbank</li>
+            <li onclick="alert('Loading weather report...')">Chicago</li>
+            <li onclick="alert('Loading weather report...')">Dallas</li>
+        </ul>
+    </div>
+    <div id="titlebar">
+        <h1>San Jose</h1>
+        <div class="right">
+            <p>show temperature in</p>
+            <select class="temp">
+                <option>C</option>
+                <option>F</option>
+            </select>
+        </div>
+    </div>
+
+<!-----CARD 1-->
+
+    <div id="container">
+        <div class="box1">
+            <h1>Today</h1>
+            <img class="pic" src = "assets/some_rain.png">
+            <p class="dis">some rain</p>
+            <div class="degrees">
+                <div class="degrees1">
+                    <p>23.9</p>
+                </div>
+                <div class="degrees2">
+                    <p>18.3</p>
+                </div>
+            </div>
+        </div>
+
+<!-----CARD 2-->
+
+        <div class="box1">
+            <h1>Today</h1>
+            <img class="pic" src = "assets/some_sun.png">
+            <p class="dis">some sun</p>
+            <div class="degrees">
+                <div class= "degrees1">
+                    <p>26.7</p>
+                </div>
+                <div class="degrees2">
+                    <p>18.9</p>
+                </div>
+            </div>
+        </div>
+
+<!-----CARD 3-->
+
+        <div class="box1">
+            <h1>Today</h1>
+            <img class="pic" src = "assets/some_clouds.png">
+            <p class="dis">some clouds</p>
+            <div class="degrees">
+                <div class = "degrees1">
+                    <p>20.6</p>
+                </div>
+                <div class="degrees2">
+                    <p>16.1</p>
+                </div>
+            </div>
+        </div>
+
+<!-----CARD 4-->
+
+        <div class="box1">
+            <h1>Today</h1>
+            <img class="pic" src = "assets/some_sun.png">
+            <p class="dis">some sun</p>
+            <div class="degrees">
+                <div class="degrees1">
+                    <p>25.6</p>
+                </div>
+                <div class="degrees2">
+                    <p>21.1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--COOKIE MESSAGE ALERT-->
+
+    <div id="alert">
+        <img src ="assets/cookie.png">
+        <div class="stop">
+            <h1>Stop! Cookie time</h1>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic.<a href=""> Read More...</a>
+        </div>
+        <button class="btn" onclick="dismiss()">I Accept</button>
+    </div>
+    <script src="java.js"></script>
+</body>
+</html>
